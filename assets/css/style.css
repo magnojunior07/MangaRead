@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;;
+}
+
+body {
+background-color: #FFFFFF;
+}
+
+header {
+    margin: -10px;
+    background-color: black;
+    padding: 20px;
+}
+
+.nav {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+
+.logo {
+    display: flex;
+    position: absolute;
+    left: 75px;
+}
+
+.logo-text {
+    font-size: 23px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-self: center;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    font-size: 15px;
+    margin-left: 40px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.carousel {
+    margin: 33px 0 0 140px;
+    margin-right: 20px;
+}
+
+.carousel section {
+    width: 190px;
+    margin-right: 20px;
+}
+
+.carousel-header {
+    margin-right: 48px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-title {
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.carousel-content {
+    width: auto;
+    transition: all 1s;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+}
+
+.section-img-box {
+    height: 270px;
+    width: 189px;
+    border-radius: 20px;
+}
+
+.section-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.section-title {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
