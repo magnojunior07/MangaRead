@@ -102,3 +102,20 @@ header {
     font-weight: 300;
     text-align: center;
 }
+
+.carousel-footer {
+    width: calc(100% - 140px);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.arrow-left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.arrow-right { 
+    display: flex;
+    align-items: flex-end;
+}
