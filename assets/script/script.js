@@ -33,3 +33,4 @@ function move(){
         carousel[0].style.marginLeft = move1 + 'px'
     })
 }
+
