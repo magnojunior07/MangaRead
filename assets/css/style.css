@@ -88,6 +88,13 @@ header {
     border-radius: 20px;
 }
 
+.section-img-box:hover {
+    position: relative;
+    top:-2px;
+    box-shadow:0 2px 2px rgb(36, 36, 36);
+    cursor: pointer;    
+}
+
 .section-img {
     object-fit: cover;
     height: 100%;
@@ -101,6 +108,11 @@ header {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
+}
+
+.section-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .carousel-footer {
