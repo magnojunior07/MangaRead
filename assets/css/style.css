@@ -112,11 +112,6 @@ header {
     text-align: center;
 }
 
-.section-title:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 .carousel-footer {
     width: calc(100% - 140px);
     display: flex;
@@ -141,19 +136,21 @@ header {
     position: relative;
     top: -2px;
     text-shadow:0 4px 4px rgb(36, 36, 36);
-    filter: invert(57%) sepia(74%) saturate(1539%) hue-rotate(0deg) brightness(103%) contrast(103%);
+    filter: brightness(0) saturate(100%) invert(69%) sepia(100%) saturate(662%) hue-rotate(323deg) brightness(102%) contrast(101%);
 }
 
 .tooltip {
+    border-radius: 30px;
     display: none;
-    height: 962px;
-    width: 398px;
+    height: 150%;
+    width: 80%;
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 10%;
+    right: 10%;
     z-index: 2;
-    background: linear-gradient(180.55deg, #F6F6F6 0.48%, rgba(247, 247, 247, 0) 179.72%);
-    backdrop-filter: blur(30px);
+    background: linear-gradient(170.55deg, #F6F6F6 0.48%, rgba(247, 247, 247, 0) 170.72%);
+    backdrop-filter: blur(25px);
     animation: scale .35s;
 }
 
@@ -185,10 +182,11 @@ header {
 }
 
 .background {
-    height: 373px;
+    height: 480px;
     width: 378.54px;
-    margin: 10px 9.73px 34px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .background-img {
@@ -199,16 +197,16 @@ header {
 }
 
 .back {
-    height: 44px;
-    width: 44px;
-    top: 25px;
-    right: 25.27px;
+    height: 80px;
+    width: 80px;
+    top: -15px;
+    right: -10px;
     border-radius: 50%;
-    background: rgba(49, 49, 49, 0.7);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(67%) saturate(7420%) hue-rotate(3deg) brightness(92%) contrast(106%);
 }
 
 .back:hover {
@@ -219,6 +217,7 @@ header {
     height: 54px;
     width: 100%;
     margin-bottom: 30.63px;
+    margin-top: 30.63px;
     display: grid;
     grid-template-areas: '1 2 3 4' '5 5 5 5';
 }
@@ -231,13 +230,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFF;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #292929;
+    background-color: rgb(211, 209, 209);
 }
 
 .categories-text {
     margin: 0 10px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     color: #0c0c0c;
 }
 
@@ -251,7 +253,7 @@ header {
 }
 
 .tooltip-description {
-    margin: 0 19.46px 30px;
+    margin: -30px 70px 30px;
     font-size: 14px;
     font-weight: 400;
     color: #000000;
@@ -273,10 +275,17 @@ header {
     font-weight: 700;
     line-height: 21.6px;
     color: #FFFFFF;
-    background-color: #FF9900;
+    background-color: #0c0c0c;
 }
 
 .tooltip-read-list {
+    width: 360px;
+    height: 42px;
+    border-radius: 60px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
     margin-top: 20px;
     color: #000000;
     border: 2px solid #000;
@@ -284,15 +293,15 @@ header {
 }
 
 .tooltip-read:hover {
-    background-color: #955900;
+    background-color: #292929;
+    cursor: pointer;
+}
+
+.tooltip-read-list:hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 .script {
     display: none;
-}
-
-tooltip-read-list:hover {
-    color: #5b5b5b;
-    border: 2px solid #5b5b5b;
-    background-color: transparent;
 }
