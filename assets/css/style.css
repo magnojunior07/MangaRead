@@ -96,7 +96,7 @@ header {
     box-shadow: 2px 4px 4px #db940f;
     cursor: pointer;
     filter: brightness(110%);
-    animation: pulse 1.5s;
+    animation: pulse 1.5s infinite;
     animation-direction: alternate;
     -webkit-animation-name: pulse;
     animation-name: pulse;   
