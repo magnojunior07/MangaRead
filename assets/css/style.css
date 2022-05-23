@@ -93,9 +93,36 @@ header {
 .section-img-box:hover {
     position: relative;
     top:-2px;
-    box-shadow:0 2px 2px rgb(36, 36, 36);
-    cursor: pointer;    
+    box-shadow: 2px 4px 4px #db940f;
+    cursor: pointer;
+    filter: brightness(110%);
+    animation: pulse 1.5s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;   
 }
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(110%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(110%);
+    }
+  }
 
 .section-img {
     object-fit: cover;
@@ -110,6 +137,7 @@ header {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
+    user-select: none;
 }
 
 .carousel-footer {
@@ -136,7 +164,7 @@ header {
     position: relative;
     top: -2px;
     text-shadow:0 4px 4px rgb(36, 36, 36);
-    filter: brightness(0) saturate(100%) invert(69%) sepia(100%) saturate(662%) hue-rotate(323deg) brightness(102%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(66%) sepia(90%) saturate(2516%) hue-rotate(4deg) brightness(95%) contrast(88%);
 }
 
 .tooltip {
@@ -234,6 +262,7 @@ header {
     border-width: 0.5px;
     border-color: #292929;
     background-color: rgb(211, 209, 209);
+    user-select: none;
 }
 
 .categories-text {
