@@ -11,7 +11,7 @@
   favoritos.</p>
   
   - O projeto está hospedado <a href="https://manga-read.netlify.app/">neste link</a>
-  - Caso queira contribuir, basta fazer um git clone da branch deve e depois fazer um pull request para a branch master
+  - Caso queira contribuir, basta fazer um git clone da branch dev e depois fazer um pull request para a branch master
   
   <hr>
   
